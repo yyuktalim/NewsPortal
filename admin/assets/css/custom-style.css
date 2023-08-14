@@ -1,0 +1,139 @@
+.bg-gradient-primary {
+	background: #222;
+}
+.login-card {
+	width: 500px;
+    margin: 0 auto;
+}
+.register-card {
+	width: 650px;
+	margin: 0 auto;
+}
+.forget-pass-card {
+	width: 500px;
+	margin: 0 auto;
+}
+.btn-primary {
+	background-color: #222;
+	border-color: #222;
+}
+.btn-primary:hover {
+	background-color: #f5bc04;
+	border-color: #f5bc04;
+}
+
+.table-card {
+	display: flex;
+}
+
+
+
+/*module/news/add-news.php*/
+div.page-title {
+	margin: 50px;
+	color: #000;
+	
+}
+div.page-title h2 {
+	font-weight:700;
+}
+
+
+div.new-post {
+	margin: 50px !important;
+}
+div.new-post form {
+	margin: 0 50px;
+}
+
+div.new-post form label {
+	font-size: 20px;
+}
+
+
+div.new-post form input {
+	width: 100%;
+	margin-bottom: 30px;
+	font-size: 20px;
+    padding: 10px 20px;
+    /*text-transform: capitalize;*/
+    border: 1px solid #222;
+    border-radius: 4px;
+}
+
+div.new-post form select {
+	display: block;
+}
+
+div.new-post form select option {
+
+}
+div.new-post .featured-news {
+	
+}
+div.new-post .featured-news span {
+	font-size:20px;
+	margin-right: 40px;
+}
+div.new-post .featured-news input {
+	width: auto;
+}
+div.new-post .featured-news label {
+	margin-right: 20px;
+}
+div.new-post form .submit-btn {
+	width: 200px;
+	background: #222;
+	color: #f5bc04;
+	border: 1px solid #222;
+	border-radius: 4px;
+	cursor: pointer;
+}
+div.new-post form .submit-btn:hover {
+	background: transparent;
+	color: #222;
+}
+
+
+/*module/news/edit-news.php*/
+div.new-post form select {
+	width: 250px;
+	margin-bottom: 20px;
+	border: 1px solid #222;
+	border-radius: 4px;
+	font-size: 20px;
+    padding: 10px 20px;
+}
+
+
+/*admin/categories.php/css*/
+.category-title {
+	margin: 0 30px;
+}
+.category-title h1 {
+	color: #5a5c69;
+	font-size: 30px;
+	font-weight: bold;
+}
+div.categories-list {
+	margin: 20px 0;
+}
+div.categories-list ul {
+
+}
+div.categories-list ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 20px;
+}
+div.categories-list ul li a {
+	color: #f5bc04;
+	background: #222;
+	border: 1px solid #222;
+	border-radius: 20px
+}
+div.categories-list ul li a:hover {
+	color: #222;
+	background: transparent;
+}
+
